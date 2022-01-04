@@ -1,0 +1,12 @@
+{
+	"dependencies": {
+		"charenc": "0.0.2",
+		"crypt": "0.0.2",
+		"dayjs": "^1.10.7",
+		"is-buffer": "1.1.6",
+		"md5": "2.3.0",
+		"qs": "^6.10.1"
+	},
+	"devDependencies": {
+	}
+}

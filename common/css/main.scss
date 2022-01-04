@@ -1,0 +1,72 @@
+html,
+body,
+uni-page-body {
+	margin: 0;
+	padding: 0;
+}
+
+page {
+	font-family: Source Han Sans CN;
+	background: #f7f5f5;
+
+	& > view,
+	& {
+		min-height: 100%;
+		height: 1px;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+// .uni-popup {
+// 	/deep/ view[name='mask'] {
+// 		background: rgba(178, 178, 178, 0.3) !important;
+// 	}
+// }
+
+/**
+ * 元素捕捉到焦点的样式
+ */
+.focus:focus,
+.focus .uni-input-input:focus {
+	border: 2px solid dimgray !important;
+	outline: none !important;
+	box-sizing: border-box !important;
+}
+
+.flex-box {
+	display: flex;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.flex-2 {
+	flex: 2;
+}
+
+.flex-3 {
+	flex: 3;
+}
+
+.flex-4 {
+	flex: 4;
+}
+
+.flex-5 {
+	flex: 5;
+}
+.clearfix:before,
+.clearfix:after {
+	content: ' ';
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
